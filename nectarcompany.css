@@ -1,0 +1,58 @@
+body{
+	margin: 0px;
+	background-color:#D3E3FD ;
+	font-family: Sans-serif;
+}
+
+.header{
+	background-color:#424C58 ;
+}
+.header img{
+	height: 150px;
+	width: 200px;
+
+}
+.header h2{
+	float: right;
+	margin: 50px;
+   color: orange;
+}
+.pera{
+	display: flex;
+	margin: 10px;
+}
+.pera img{
+	height: 350px;
+	width: 400px;
+
+}
+.pera p{
+	padding:10px;
+}
+.service{
+	text-align: center;
+	padding: 10px;
+	margin-left:300px ;
+	margin-right: 300px;
+}
+.flexcon{
+	display: flex;
+
+}
+.flexcon div{
+	height: 30%;
+	width: 30%;
+	border: 3px solid black;
+	color: black;
+	background-color: pink;
+	column-gap: 10px;
+}
+.container{
+	display: flex;
+}
+.container div{
+	width: 30%;
+	margin: 16px;
+	text-align: center;
+	line-height: 4px;
+}
